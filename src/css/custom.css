@@ -1,0 +1,125 @@
+/**
+ * Any CSS included here will be global. The classic template bundles Infima by
+ * default. Infima is a CSS framework designed to work well for content-centric
+ * websites.
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Red+Hat+Mono:wght@400;500&display=swap');
+
+/* Override the default Infima variables */
+
+:root {
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-code-font-size: 95%;
+  --ifm-color-primary: #175096;
+  --ifm-color-primary-dark: #154887;
+  --ifm-color-primary-darker: #144480;
+  --ifm-color-primary-darkest: #103869;
+  --ifm-color-primary-light: #1958a5;
+  --ifm-color-primary-lighter: #1a5cac;
+  --ifm-color-primary-lightest: #1e68c3;
+  --ifm-font-family-base:'Inter', sans-serif;
+  --ifm-heading-font-weight: var(--ifm-font-weight-semibold);
+  --ifm-menu-color: var(--ifm-color-emphasis-900);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #dcabdd;
+  --ifm-color-primary-dark: #d08fd2;
+  --ifm-color-primary-darker: #cb81cc;
+  --ifm-color-primary-darkest: #b957bb;
+  --ifm-color-primary-light: #e8c7e8;
+  --ifm-color-primary-lighter: #edd5ee;
+  --ifm-color-primary-lightest: #ffffff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Home */
+
+.hero {
+  background: url('../../static/img/hero-bg.png');
+}
+
+.hero .hero__title {
+  background: url('../../static/img/logotype.png') no-repeat center top;
+  display: block;
+  height: 30px;
+  margin: 0 auto;
+  text-indent: -999rem;
+  width: 330px;
+}
+
+.home {
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.home figure {
+  margin-top: 2rem;
+}
+
+/* Navigation */
+
+.navbar {
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+  box-shadow: none;
+}
+
+.navbar__brand {
+  margin-right: 0.5rem;
+}
+
+.navbar__logo,
+.navbar__logo img {
+  height: 30px;
+}
+
+/* Documentation */
+
+.markdown h1:first-child {
+  --ifm-h1-font-size: 2rem;
+  margin-top: calc(var(--ifm-h1-vertical-rhythm-bottom) * var(--ifm-leading));
+}
+
+.markdown>h2 {
+  --ifm-h2-font-size: 1.5rem;
+}
+
+.col:not(.col--3) {
+  padding: 0 2.5rem;
+}
+
+.col--3 {
+  padding-left: 0;
+}
+
+.table-of-contents__left-border {
+  border: none;
+}
+
+.menu {
+  font-weight: var(--ifm-font-weight-regular);
+}
+
+/* Pages */
+
+.col .hero__title {
+  font-size: 2rem;
+}
+
+/* Code */
+
+.prism-code,
+.theme-code-block,
+code {
+  font-family: 'Red Hat Mono', monospace;
+}
+
+html[data-theme="light"] .theme-code-block {
+  background-color: #f6f8fa !important;
+  box-shadow: none !important;
+}
+
+html[data-theme="light"] .theme-code-block .prism-code {
+  background-color: #f6f8fa;
+}
