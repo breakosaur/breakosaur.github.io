@@ -1,6 +1,6 @@
 # Change the sky's dither
 
-Pixel Sky Creator ships with three pre-made dither patterns to choose from. These are saved in the asset's Sprites folder.
+Pixel Sky Creator ships with twelve pre-made dither patterns to choose from. These are saved in the asset's Sprites folder and named in the format `dither[number]-[size]px` (for example, `dither1-2px`).
 
 To change the sky's dither:
 - In the Hierarchy, click the `Sky` game object to select it

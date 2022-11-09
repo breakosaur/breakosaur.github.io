@@ -3,7 +3,7 @@
 Pixel Sky Creator supports the use of any sprite as a dither pattern, so long as the sprite's texture satisfies the following criteria:
 - it must only contain pixels whose alpha value is either `0` (fully transparent) or `1` (fully opaque)
 - its pixel data must be readable
-- the data must not be Crunch compressed
+- it must not be Crunch compressed
 
 
 ## How it works

@@ -23,7 +23,9 @@ PixelSkyCreator
 │   ├── Dither.cs
 │   └── SkyUtils.cs
 └── Sprites
-    ├── dither-1px.png
-    ├── dither-2px.png
-    └── dither-3px.png
+    ├── dither1-1px.png
+    ├── dither1-2px.png
+    ├── dither1-3px.png
+    ├── ...
+    └── ...
 ```
