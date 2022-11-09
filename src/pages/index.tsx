@@ -25,7 +25,7 @@ export default function Home(): JSX.Element {
         <h1>Pixel Sky Creator</h1>
         <p>Create pixel art skies directly in Unity</p>
         <figure>
-          <img src="/img/pixel-sky-creator-screenshot.png" alt="Pixel Sky Creator" />
+          <img src="/img/pixel-sky-creator/pixel-sky-creator-screenshot.png" alt="Pixel Sky Creator" />
         </figure>
       </main>
     </Layout>
